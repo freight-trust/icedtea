@@ -1,0 +1,27 @@
+{
+  "name": "@freight-trust/icedtea",
+  "version": "0.1.0",
+  "description": "Self-hosted full-stack Gitea service designed for use with Traefik.",
+  "scripts": {
+    "start": "docker-compose up -d",
+    "debug": "docker-compose up -d && docker-compose logs -f --tail=10",
+    "release": "standard-version --sign"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freight-trust/icedtea"
+  },
+  "keywords": [
+    "git",
+    "gitea",
+    "docker",
+    "postres",
+    "traefik"
+  ],
+  "author": "see: @authors",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/freight-trust/icedtea",
+  "devDependencies": {
+    "standard-version": "^4.4.0"
+  }
+}
